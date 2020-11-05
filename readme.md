@@ -6,3 +6,5 @@ Add tasks / features / items that are being worked on or done in this file. This
 
 - [ ] New Task
 - [x] Completed Task
+- [x] Added different colors to the canvas
+- [x] Added functionality to clicking the "pump" button
