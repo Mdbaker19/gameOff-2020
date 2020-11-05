@@ -24,4 +24,9 @@ body{
     background: rgb(16, 16, 17);
     background: radial-gradient(circle, rgba(16, 16, 17, 1) 88%, rgba(225, 236, 238, 1) 100%);
 }
+#chargeMeter{
+    width: 600px;
+    height: 50px;
+    background-color: green;
+}
 
