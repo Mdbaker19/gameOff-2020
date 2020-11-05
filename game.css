@@ -13,6 +13,13 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+#game-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 50px max-cont;
+    grid-template-areas: "canvas" "controls" "gauge";
+}
 .canvasArea{
     margin: 5em auto;
 }
@@ -28,5 +35,6 @@ body{
     width: 600px;
     height: 50px;
     background-color: green;
+    grid-area: "gauge";
 }
 
