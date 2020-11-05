@@ -2,6 +2,12 @@ html {
     box-sizing: border-box;
 }
 
+:root {
+    --red: #f00;
+    --white: white;
+}
+
+
 *, *::before, *::after {
     box-sizing: inherit;
 }
@@ -38,3 +44,31 @@ body{
     grid-area: "gauge";
 }
 
+#button-panel {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.field-group {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btn {
+    width: 80px;
+    height: 80px;
+    background-color: var(--red);
+    color: var(--white);
+}
+.btn-round {
+    border-radius: 50%;
+}
+
+.btn-label {
+    color: var(--white);
+    font-size: 1.5rem;
+}
